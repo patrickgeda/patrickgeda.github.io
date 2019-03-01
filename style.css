@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu');
+
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Lato';
+}
+
+.navbar-brand{
+    font-family: 'Pacifico';
+    font-size: 35px;
+    color: lightcoral !important;
+}
+
+.nav-link{
+    font-size: 16px;
+    margin: 15px;
+    color: #111 !important;
+    font-family: 'Roboto Condensed';
+}
+
+.nav-link:hover{
+    color: #00e8e8 !important;
+}
+
+.active .nav-link{
+    color: #00e8e8 !important;
+}
+
+.site-content{
+    background-image: url('images/abstract-bright-colorful-268941.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.site-title, .site-desc{
+    color: #fff;
+    font-family: 'Righteous';
+}
+
+.site-title{
+    margin-top: 20%;
+    margin-bottom: 6%;
+    font-size: 50px;
+}
+
+.site-desc{
+    font-size: 14px;
+    padding-left: 15%;
+}
+
+.site-btn1{
+    display: block;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 40%;
+}
+
+/* Section-1 */
+.section-1, .heading-1{
+    margin-top: 8%;
+}
+
+.heading-1{
+    margin-bottom: 5%;
+}
+
+.section-1 .para-1{
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+
+.section-1 .card-text, .para-1{
+    color: rgba(0,0,0,0.59);
+}
+
+/* Section-4 */
+.section-4{
+    margin-top: 8%;
+}
+
+/* Section-2 */
+.section-2, .row, .col-md-2{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
