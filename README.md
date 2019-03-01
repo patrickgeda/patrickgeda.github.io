@@ -1,1 +1,0 @@
-# patrickgeda.github.io
