@@ -95,8 +95,10 @@ body{
 }
 
 .my-profile{
-    width: 220px;
-    height: 280px;
+    display: block;
+    margin: 0 auto;
+    width: 210px;
+    height: 290px;
     border-radius: 50%;
 }
 
