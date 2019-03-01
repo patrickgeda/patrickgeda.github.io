@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu');
 
-body{
-    padding: 0%;
-    margin: 0%;
+html, body{
+    padding: 0;
+    margin: 0;
     font-family: 'Lato';
 }
 
@@ -83,6 +83,11 @@ body{
     color: rgba(0,0,0,0.59);
 }
 
+div.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+  
+
 /* Section-4 */
 .section-4{
     margin-top: 8%;
@@ -100,5 +105,67 @@ body{
     width: 210px;
     height: 290px;
     border-radius: 50%;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Footer */
+.social a{
+    font-size: 3.5em;
+}
+
+.fa-facebook{
+    color: #3b5998;
+}
+
+.fa-google-plus-g{
+    color: #dd4b39;
+}
+
+.fa-youtube{
+    color: #bb0000;
+}
+
+.fa-facebook:hover,
+.fa-google-plus-g:hover,
+.fa-youtube:hover{
+    color: #d5d5d5;
+}
+
+.fa-file-pdf{
+    font-size: 2rem;
+}
+
+footer{
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 1rem;
+    margin-bottom: 0;
+    height: 340px;
+}
+
+hr.light{
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    footer{
+        background-color: #3f3f3f;
+        color: #d5d5d5;
+        padding-top: 1rem;
+        margin-bottom: 0;
+        height: 600px;
+    }
+    .my-profile{
+        display: block;
+        margin: 0 auto;
+        width: 200px;
+        height: 290px;
+        border-radius: 50%;
+        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
 }
 
